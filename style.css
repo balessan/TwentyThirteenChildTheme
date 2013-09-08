@@ -20,6 +20,18 @@ Version:        0.1.0
 	width: 100%;
 }
 
+/* Increase site header width to 100% of available space */
+.site-header .home-link {
+    color: #141412;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 230px;
+    padding: 0 20px;
+    text-decoration: none;
+    width: 100%;
+}
+
 /*
 
 Style for the resume page
