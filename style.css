@@ -1,0 +1,139 @@
+/*
+Theme Name:     Twenty Thirteen Child
+Theme URI:      http://benoit-alessandroni.fr/Theme
+Description:    Child theme for the Twenty Thirteen theme
+Author:         Benoît Alessandroni
+Author URI:     http://benoit-alessandroni.fr/a-propos/
+Template:       twentythirteen
+Version:        0.1.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+/*Increase width - original max-width 604 px*/
+.entry-header,
+.entry-content,
+.entry-summary,
+.entry-meta {
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+}
+
+/*
+
+Style for the resume page
+Allowing to style all sections separately
+
+*/
+.resume-section-title {
+	text-align: right;
+        font-size: 1.4em;
+        color: #000000;
+        border-bottom: 1px solid black;
+}
+
+.resume-section-title a, .resume-section-title a:link, .resume-section-title a:visited, .resume-section-title a:hover, .resume-section-title a:active {
+        color: #000000;
+        text-decoration: none;
+        font-size: 1.4em;
+}
+
+.personal-skills li {
+        list-style: none;
+}
+
+.skills-section-title {
+	font-size: 1.2em;
+	color: #000000;
+	background-color: #f2bf72;
+	border: 1px solid gray;
+	border-radius: 5px 5px 5px 5px;
+        padding: 5px;
+}
+
+.skills-section-title a, .skills-section-title a:link, .skills-section-title a:visited, .skills-section-title a:hover, .skills-section-title a:active {
+        color: #000000;
+        text-decoration: none;
+        font-size: 1.2em;
+}
+
+.resume-title {
+        text-align: center;
+}
+
+.resume-subtitle {
+        text-align: center;
+        font-style: italic;
+}
+
+.experiences-section-title {	 	 
+	font-size: 1.2em;	 	 
+	color: #000000;	 	 
+	background-color: #f2bf72;
+	border: 1px solid gray;	 	 
+	border-radius: 5px 5px 5px 5px;	 	 
+	padding: 5px;	 	 
+}	 	 
+
+.experiences-section-title a, .experiences-section-title a:link, .experiences-section-title a:visited, .experiences-section-title a:hover, .experiences-section-title a:active {	 	 
+	color: #000000;	 	 
+	text-decoration: none;	 	 
+	font-size: 1.2em;	 	 
+}	 	 
+
+.experiences-section-subtitle a, .experiences-section-subtitle a:link, .experiences-section-subtitle a:visited, .experiences-section-subtitle a:hover, .experiences-section-subtitle a:active {
+	color: #000000;
+	text-decoration: none;
+	font-size: 1.1em;
+}  
+
+.experiences-section-title-left {	 	 
+	text-align : left;	 	 
+	font-size  : 1.0em;	 	 
+	width      :60%;	 	 
+}
+	 	 
+.experiences-section-title-right {	 	 
+	text-align : right;	 	 
+	float      : right;	 	 
+	font-style : italic;	 	 
+	font-size  : 1.0em;	 	 
+	width      : 40%;	 	 
+}
+
+.experiences-section li {
+	list-style: none;
+	
+}
+
+.studies-section-title {
+	font-size: 1.2em;
+	color: #000000;
+	background-color: #f2bf72;
+	border: 1px solid gray;
+	border-radius: 5px 5px 5px 5px;
+	padding: 5px;
+}
+
+.studies-section-title a, .studies-section-title a:link, .studies-section-title a:visited, .studies-section-title a:hover, .studies-section-title a:active {	 	 
+	color: #000000;	 	 
+	text-decoration: none;	 	 
+	font-size: 1.2em;	 	 
+}	 	 
+
+.projects-section-title {
+	font-size: 1.2em;
+	color: #000000;
+	background-color: #f2bf72;
+	border: 1px solid gray;
+	border-radius: 5px 5px 5px 5px;
+	padding: 5px;
+}
+
+.projects-section-title a, .projects-section-title a:link, .projects-section-title a:visited, .projects-section-title a:hover, .projects-section-title a:active {	 	 
+	color: #000000;	 	 
+	text-decoration: none;	 	 
+	font-size: 1.2em;	 	 
+}	 	 
+
