@@ -58,7 +58,7 @@ Allowing to style all sections separately
 .skills-section-title {
 	font-size: 1.2em;
 	color: #000000;
-	background-color: #f2bf72;
+	background-color: #c7d3e3;
 	border: 1px solid gray;
 	border-radius: 5px 5px 5px 5px;
         padding: 5px;
@@ -82,7 +82,7 @@ Allowing to style all sections separately
 .experiences-section-title {	 	 
 	font-size: 1.2em;	 	 
 	color: #000000;	 	 
-	background-color: #f2bf72;
+	background-color: #c7d3e3;
 	border: 1px solid gray;	 	 
 	border-radius: 5px 5px 5px 5px;	 	 
 	padding: 5px;	 	 
@@ -122,7 +122,7 @@ Allowing to style all sections separately
 .studies-section-title {
 	font-size: 1.2em;
 	color: #000000;
-	background-color: #f2bf72;
+	background-color: #c7d3e3;
 	border: 1px solid gray;
 	border-radius: 5px 5px 5px 5px;
 	padding: 5px;
@@ -137,7 +137,7 @@ Allowing to style all sections separately
 .projects-section-title {
 	font-size: 1.2em;
 	color: #000000;
-	background-color: #f2bf72;
+	background-color: #c7d3e3;
 	border: 1px solid gray;
 	border-radius: 5px 5px 5px 5px;
 	padding: 5px;
