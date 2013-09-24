@@ -32,12 +32,39 @@ Version:        0.1.0
     width: 100%;
 }
 
+/* Remove margin for left and right positioned images */
+.entry-content img.alignleft, .entry-content .wp-caption.alignleft {
+    margin-left: 0px;
+}
+
+.entry-content img.alignright, .entry-content .wp-caption.alignright {
+    margin-right: 0px;
+}
+
+
 /*
 
 Style for the resume page
 Allowing to style all sections separately
 
 */
+.resume-header-wrapper {
+	display:inline;
+}
+
+#resume-header-wrapper .block-left{
+	width: 70%;
+	float: left;
+}
+
+#resume-header-wrapper .block-right{
+	float: right;
+}
+
+#resume-header-wrapper .block-right img{
+	border-radius: 5px 5px 5px 5px;
+}
+
 .resume-section-title {
 	text-align: right;
         font-size: 1.4em;
